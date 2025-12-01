@@ -5,8 +5,8 @@
         background-image: linear-gradient(to top, #52b5b1, #7d38ac);
     }
     section{
-        width: 75%;
-        height: 60vh;
+        width: 85%;
+        height: 60%;
     }
     .imagem{
         float: left;
@@ -44,8 +44,8 @@
         background-image: linear-gradient(to top, #52b5b1, #7d38ac);
     }
     section{
-        width: 75%;
-        height: 58vh;
+        width: 87%;
+        height: 70vh;
     }
     h1{
         margin-bottom: 15px;
@@ -89,8 +89,8 @@ margin-bottom: 15px;
         background-image: linear-gradient(to top, #52b5b1, #7d38ac);
     }
     section{
-        width: 80%;
-        height: 58vh;
+        width: 90%;
+        height: 70vh;
     }
     h1{
         margin-bottom: 15px;
