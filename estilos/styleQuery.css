@@ -5,17 +5,17 @@
         background-image: linear-gradient(to top, #52b5b1, #7d38ac);
     }
     section{
-        width: 85%;
-        height: 70vh;
+        width: 80vw;
+       
     }
     .imagem{
         float: left;
-        width: 40%;
+        width: 50%;
         height: 100%;
     }
     #form{
         float: right;
-        width: 58%;
+        width: 50%;
     }
     .imagem{
         border-radius: 20px;
@@ -44,8 +44,8 @@
         background-image: linear-gradient(to top, #52b5b1, #7d38ac);
     }
     section{
-        width: 87%;
-        height: 70vh;
+        width: 950px;
+        
     }
     h1{
         margin-bottom: 15px;
@@ -55,15 +55,15 @@
 margin-bottom: 15px;
     }
     .imagem{
-        float: right;
-        width: 40%;
+        float: left;
+        width: 50%;
         height: 100%;
         border-top-left-radius: 0px;
         border-bottom-right-radius: 20px;
     }
      #form{
-        float: left;
-        width: 58%;
+        float: right;
+        width: 50%;
     }
    .ipt{
     width: 98%;
@@ -90,7 +90,7 @@ margin-bottom: 15px;
     }
     section{
         width: 90%;
-        height: 70vh;
+       
     }
     h1{
         margin-bottom: 15px;
@@ -101,14 +101,14 @@ margin-bottom: 15px;
     }
     .imagem{
         float: right;
-        width: 40%;
+        width: 50%;
         height: 100%;
         border-top-left-radius: 0px;
         border-bottom-right-radius: 20px;
     }
      #form{
         float: left;
-        width: 58%;
+        width: 50%;
     }
    .ipt{
     width: 98%;
