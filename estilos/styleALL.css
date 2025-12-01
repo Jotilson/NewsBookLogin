@@ -65,7 +65,7 @@ p{
    border: 0px solid var(--verde);
    border-radius: 2px;
    width:210px ;
- height: 35px;
+ height: 32px;
  float: right;
 
 }
@@ -74,7 +74,7 @@ p{
    border: 0px solid var(--verde);
    border-radius: 2px;
    width:210px ;
- height: 35px;
+ height: 32px;
  float: right;
 
 }
@@ -88,19 +88,19 @@ div{
     display: inline-block;
     border-radius: 5px;
     width:243px ;
-    height: 40px;
+  
 }
 
 
 .button{
-    padding: 5px;
+    padding: 8px;
     background-color: #52b5b1;
     color: white;
     border-radius: 5px;
     border: 3.5px solid rgba(0, 0, 0, 0.098);
      margin-top: 1px;
       width:243px ;
- height: 35px;
+
      
 }
 .button:hover{
@@ -109,7 +109,7 @@ div{
 }
 #b1{
 background-color: white;color: var(--verde);border: 1px solid var(--verde);
-  margin-top: 5px;
+  margin-top: 2px;
 }
 #b1:hover{
   
