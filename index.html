@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/styleALL.css" media="all">
+    <link rel="stylesheet" href="estilos/styleQuery.css">
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+
+    <main>
+
+        <section id="login">
+            <div class="imagem">
+                
+            </div>
+
+            <div id="form"> 
+                <h1>Login</h1>
+                <p class="pconfig" style="text-align: justify;">Seja Bem vindo. Faça o seu login para fazer as configuranções do seu ambiente!</p><br>
+                <form action="login.php" method="post">
+                    <div class="ipt">
+                        <p> <img style="margin-top: 5px;" src="imagens/key_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                            <input class="in" type="email" name="email" id="iemail" required placeholder="Email">
+                        </p>
+                    </div>
+                    
+                    <div class="ipt">
+                        <p>       <img style="margin-top: 5px;" src="imagens/account_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">                  
+    <input class="in2"   type="text" name="senha" id="senhaid" required placeholder="Senha" minlength="10" maxlength="20">
+                                </p>
+                    </div>
+                    <br>
+  <input type="submit" value="Enviar" class="button" > <br>
+  <input type="reset" value="Apagar" class="button" id="b1">
+
+
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+    
+</body>
+</html>

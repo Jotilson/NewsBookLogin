@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+:root{
+    --verde: #52b5b1;
+    --roxo: #7d38ac;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+     box-sizing: border-box;
+}
+
+body,html{
+
+font-family: Arial, Helvetica, sans-serif;
+background-color: var(--verde);
+background-attachment: fixed;
+ width: 100vw;
+height: 100vh;
+}
+main{
+    position: relative;
+    width: 100vw;
+height: 100vh;
+
+}
+.imagem{
+   background-color: #7d38ac;
+    background-image: url('../imagens/login_imagem_fb_68443fd9a2.png'); 
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+section{
+   transition: width 1s, height 1s;
+   transition-timing-function: ease;
+
+    background-color: white;
+    width: 250px;
+    border-radius: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+height: 500px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.539);
+
+}
+#form{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+p{
+    padding: 2.5px;
+    font-size: 1em;
+    font-family: monospace;
+}
+.in2 {
+   background-color: white;
+   border: 0px solid var(--verde);
+   border-radius: 2px;
+   width:210px ;
+ height: 35px;
+ float: right;
+
+}
+.in{
+   background-color: white;
+   border: 0px solid var(--verde);
+   border-radius: 2px;
+   width:210px ;
+ height: 35px;
+ float: right;
+
+}
+div{
+    margin-bottom: 5px;
+}
+
+
+.ipt{
+    background-color: var(--roxo);
+    display: inline-block;
+    border-radius: 5px;
+    width:243px ;
+    height: 40px;
+}
+
+
+.button{
+    padding: 5px;
+    background-color: #52b5b1;
+    color: white;
+    border-radius: 5px;
+    border: 3.5px solid rgba(0, 0, 0, 0.098);
+     margin-top: 1px;
+      width:243px ;
+ height: 35px;
+     
+}
+.button:hover{
+     border: 3.5px solid #26dae0cb;
+    
+}
+#b1{
+background-color: white;color: var(--verde);border: 1px solid var(--verde);
+  margin-top: 5px;
+}
+#b1:hover{
+  
+    background-color: whitesmoke;
+}

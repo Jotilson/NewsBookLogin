@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@media screen  and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(to top, #52b5b1, #7d38ac);
+    }
+    section{
+        width: 75%;
+        height: 50vh;
+    }
+    .imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    #form{
+        float: right;
+        width: 58%;
+    }
+    .imagem{
+        border-radius: 20px;
+    }
+   .ipt{
+    width: 98%;
+   }
+    .in{
+   background-color: white;
+   border: 0px solid var(--verde);
+   border-radius: 2px;
+   width:91% ;
+ height: 35px;
+ float: right;
+}
+.in2{
+    width: 91%;
+}
+   .button{
+    margin-top: 4px;
+    width: 98%;
+   }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body{
+        background-image: linear-gradient(to top, #52b5b1, #7d38ac);
+    }
+    section{
+        width: 75%;
+        height: 58vh;
+    }
+    h1{
+        margin-bottom: 15px;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 15px;
+    }
+    .imagem{
+        float: right;
+        width: 40%;
+        height: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+    }
+     #form{
+        float: left;
+        width: 58%;
+    }
+   .ipt{
+    width: 98%;
+   }
+    .in{
+   background-color: white;
+   border: 0px solid var(--verde);
+   border-radius: 2px;
+   width:91% ;
+ height: 35px;
+ float: right;
+}
+.in2{
+    width: 91%;
+}
+   .button{
+    margin-top: 4px;
+    width: 98%;
+   }
+}
+@media  screen and (min-width: 1200px) {
+    body{
+        background-image: linear-gradient(to top, #52b5b1, #7d38ac);
+    }
+    section{
+        width: 80%;
+        height: 58vh;
+    }
+    h1{
+        margin-bottom: 15px;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 15px;
+    }
+    .imagem{
+        float: right;
+        width: 40%;
+        height: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+    }
+     #form{
+        float: left;
+        width: 58%;
+    }
+   .ipt{
+    width: 98%;
+   }
+    .in{
+   background-color: white;
+   border: 0px solid var(--verde);
+   border-radius: 2px;
+   width:91% ;
+ height: 35px;
+ float: right;
+}
+.in2{
+    width: 91%;
+}
+   .button{
+    margin-top: 4px;
+    width: 98%;
+   }
+}
