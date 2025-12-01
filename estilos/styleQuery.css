@@ -6,7 +6,7 @@
     }
     section{
         width: 80vw;
-       height: 70%;
+       height: 280px;
     }
     .imagem{
         float: left;
@@ -45,7 +45,7 @@
     }
     section{
         width: 950px;
-        height: 64%;
+        height: 350px;
         
     }
     h1{
@@ -59,8 +59,7 @@ margin-bottom: 15px;
         float: left;
         width: 50%;
         height: 100%;
-        border-top-left-radius: 0px;
-        border-bottom-right-radius: 20px;
+        border-radius: 20px;
     }
      #form{
         float: right;
@@ -92,7 +91,7 @@ margin-bottom: 15px;
     }
     section{
         width: 90%;
-       height: 70%;
+       height: 350px;
     }
     h1{
         margin-bottom: 15px;
